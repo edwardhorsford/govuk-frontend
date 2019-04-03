@@ -14,6 +14,12 @@
 
 🆕 New features:
 
+- Trigger setAttributes on radio inputs with shared wrapper
+
+  This change allows radio input events (for conditional reveals) to be scoped higher to parent `.govuk-form-group` wrappers, allowing groups with multiple lists to behave correctly.
+
+  ([PR #1297](https://github.com/alphagov/govuk-frontend/pull/1297))
+
 - Pull Request Title goes here
 
   Description goes here (optional)
